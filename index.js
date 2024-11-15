@@ -11,6 +11,10 @@ app.get('/rishikar',(req,res)=>{
     res.send('This is rishikar')
 })
 
+app.get('/hello',(req,res)=>{
+  res.send('<h1>Git hub profile</h1>')
+})
+
 app.listen(process.env.PORT, () => {
   console.log(`Example app listening on port ${port}`)
 })
